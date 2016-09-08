@@ -1,0 +1,216 @@
+/*Defautlt Retsets*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body nav {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+section {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.tupper {
+    width: 60%;
+    margin: 0 20%;
+}
+.btn {
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/*End Default Resets*/
+/*General Styles*/
+header .logobox {
+    background-color: white;
+}
+header nav  {
+    background-color: black;
+    padding: .2%;
+}
+header nav ul {
+    color: lightgrey;
+}
+header nav li {
+    display: inline;
+    margin: 1%;
+    float: right;
+}
+.logobox {
+    padding: .2% 0;
+}
+.logobox hr {
+    width: 100%;
+    color: gray;
+    margin: 2px;
+}
+.logobox hr:nth-of-type(2n) {
+    width: 100%;
+    color: brown;
+}
+/*End General Styles*/
+/*index*/
+#indexbody {
+    background-image: url("../img/wood_3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gahc {
+    background-image: url(../img/worldmap2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1% 0;
+}
+.gahc h2 {
+    color: white;
+    background-color: teal;
+    font-size: 500%;
+    text-align: center;
+}
+.gahc div {
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    padding: 1%;
+}
+.gahc div:last-of-type {
+    width: 100%;
+    float: none;
+}
+.gahc h3 {
+    font-size: 300%;
+    object-align
+}
+.gahc strong {
+    display: block;
+    color: teal;
+}
+.gahc p {
+    font-size: 125%;
+}
+.gahc li {
+    margin: 1% 2%;
+    display: inline-block;
+}
+.gahc .btn {
+    background-color: teal;
+}
+.gahc .btn::hover {
+    background-color: gray;
+    transition: all 1s;
+}
+.events {
+    background-color: black;
+    color: white;
+}
+.events>div {
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+.events>div:nth-of-type(1) {
+    border-right: 1px dotted white;
+}
+.events>div:nth-of-type(2) {
+    border-left: 1px dotted white;
+}
+.events h3 {
+    text-align: center;
+    font-size: 300%;
+    color: teal;
+}
+.events hr {
+    color: white;
+    width: 100%;
+}
+.events ul {
+    padding: 1%;
+}
+.events li {
+    font-size: 200%;
+}
+/*end index*/
+/*Footer Starts*/
+footer li i {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 70px;
+    float: left;
+    list-style: none;
+}
+
+footer li a {
+    color: white;
+}
+
+footer ul {
+    margin: 1.5% auto;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 4%;
+}
+
+footer ul:first-child i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: calc(7.5px / 2);
+    text-align: center;
+    line-height: 30px;
+}
+
+footer li {
+    display: inline-table;
+    margin: 0 10px;
+}
+
+footer li a:hover,
+footer li a i:hover{
+    color: teal;
+    border-color: teal;
+    transition: all 200ms;
+    text-decoration: none;
+}
+
+footer ul:first-child i{
+ color:white;
+}
