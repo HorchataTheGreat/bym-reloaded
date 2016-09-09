@@ -9,8 +9,7 @@ body nav {
     padding: 0;
 }
 
-div,
-section {
+* {
     box-sizing: border-box;
 }
 
@@ -58,14 +57,23 @@ header .logobox {
 header nav  {
     background-color: black;
     padding: .2%;
+    /*float:right;*/
 }
 header nav ul {
     color: lightgrey;
+    float: right;
+    width: 30%;
+    padding: 1%;
+    
 }
 header nav li {
     display: inline;
-    margin: 1%;
-    float: right;
+    /*margin: 1%;*/
+    float: left;
+    width: calc(100% / 4);
+    padding: 1%;
+    font-size: 120%;
+    
 }
 .logobox {
     padding: .2% 0;
